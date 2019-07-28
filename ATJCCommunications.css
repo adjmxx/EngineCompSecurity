@@ -21,9 +21,8 @@ header, section, footer, aside, nav, article{
 
 body{
   text-align: center;
-    background:#FFFFFF;
-    box-shadow: rgb(128, 128, 128) 5px 5px 10px inset;
-
+    background:#000;
+    background-size: cover;
 }
 
 #agrupar{
@@ -45,7 +44,7 @@ body{
    background: -webkit-linear-gradient(top, #FFFFFF, #006699);
    background: -moz-linear-gradient(top, #FFFFFF, #006699);
    text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
-   
+
 }
 
 #menu{
@@ -68,7 +67,7 @@ body{
   list-style: none;
   padding: 5px;
   font: bold 14px verdana, sans-serif;
-  position:relative; 
+  position:relative;
 }
 #menu li>ul{
   display:none;
@@ -90,7 +89,7 @@ body{
   -moz-border-radius:  10px;
   -webkit-border-radius: 10px;
    border-radius: 10px;
-    
+
 }
 #seccion{
   float: left;
